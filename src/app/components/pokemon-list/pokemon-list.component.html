@@ -1,15 +1,7 @@
 <!-- <div *ngIf="pokemons && pokemons.length > 0"> -->
     <ul>
-      <li>
-        charmander
-        <!-- {{ pokemon.name }} -->
-      </li>
-      <li>
-        squirtle
-        <!-- {{ pokemon.name }} -->
-      </li>
       <li *ngFor="let pokemon of pokemons">
-        <span>pokemon</span>
+        <span>{{pokemon.name}}</span>
       </li>
     </ul>
   <!-- </div> -->
