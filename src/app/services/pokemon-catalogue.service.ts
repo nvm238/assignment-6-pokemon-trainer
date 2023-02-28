@@ -48,4 +48,8 @@ export class PokemonCatalogueService {
       })
   }
 
+  public pokemonById(id: string): Pokemon | undefined {
+    return this._pokemons.find((pokemon: Pokemon) => pokemon.name == id);
+  }
+
 }
