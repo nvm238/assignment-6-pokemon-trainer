@@ -1,0 +1,13 @@
+<nav>
+    <span>Ng pokemons</span>
+    <ng-container *ngIf="trainer !== undefined">
+        <ul>
+            <li>
+                <a routerLink="/pokemons">Pokemons</a>
+            </li>
+            <li>
+                <a routerLink="/trainer">Trainer</a>
+            </li>
+        </ul>
+    </ng-container>
+</nav>

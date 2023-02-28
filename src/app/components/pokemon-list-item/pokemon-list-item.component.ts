@@ -10,7 +10,5 @@ export class PokemonListItemComponent {
 
   @Input() pokemon?: Pokemon;
   @Input() index?: number;
-  // @Input() i?: string;
-
 
 }

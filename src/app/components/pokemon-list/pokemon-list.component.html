@@ -1,13 +1,7 @@
-<!-- <div *ngIf="pokemons && pokemons.length > 0"> -->
-    <ul>
-        <app-pokemon-list-item
-        *ngFor="let pokemon of pokemons; index as i"
-        [pokemon]="pokemon"
-        [index]="i+1"
-        [attr.data-index]="i"
-      ></app-pokemon-list-item>
-    </ul>
-  <!-- </div> -->
-  <!-- <li *ngFor="let pokemon of pokemons; index as i"
-      [attr.data-index]="i"
-      >{{pokemon.name}}{{i+1}}</li> -->
+<ul>
+    <app-pokemon-list-item
+    *ngFor="let pokemon of pokemons; index as i"
+    [pokemon]="pokemon"
+    [index]="i+1"
+  ></app-pokemon-list-item>
+</ul>
