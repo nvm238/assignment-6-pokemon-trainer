@@ -31,4 +31,16 @@ export class TrainerService {
 
     return false;
   }
+
+  public addToCaught(pokemon: Pokemon): void {
+    if(this._trainer) {
+      this._trainer.pokemon.push(pokemon);
+    }
+  }
+
+  public removeFromCaught(pokemonId: string): void {
+    if(this._trainer) {
+      this._trainer.pokemon = this._trainer.pokemon.filter((pokemon: Pokemon) => pokemon.name !== pokemonId);
+    }
+  }
 }

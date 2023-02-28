@@ -1,3 +1,12 @@
 <div>
-    <button (click)="onCatchClick()">Pokeball Catch</button>
+    <button (click)="onCatchClick()">
+        <span *ngIf="isCaught; then caught else notcaught"></span>
+
+        <ng-template #caught>
+            <span class="pokemon-caught-icon">Caught</span>
+        </ng-template>
+        <ng-template #notcaught>
+            <span class="pokemon-catch-icon">Catch</span>
+        </ng-template>
+    </button>
 </div>
