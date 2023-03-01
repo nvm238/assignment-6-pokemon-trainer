@@ -1,0 +1,18 @@
+.pokemon-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.pokemon-card > img{
+    object-fit: contain;
+}
+.pokemon-card button{
+    margin: 10px 0 ;
+}

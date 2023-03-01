@@ -1,0 +1,12 @@
+.pokemon-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+app-pokemon-list-item{
+    width: 21%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

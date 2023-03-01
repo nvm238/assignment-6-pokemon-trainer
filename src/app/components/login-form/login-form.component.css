@@ -1,0 +1,29 @@
+fieldset{
+    border:0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+fieldset > label{
+    font-size: 20px
+}
+form{
+    background: #000;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+fieldset > input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+button{
+    background-color: #AE0900;
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}

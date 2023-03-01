@@ -1,5 +1,5 @@
-<li *ngIf="pokemon">
+<div class="pokemon-card" *ngIf="pokemon">
     <img [src]="GetUrl(pokemon.url)"/>
     <span>{{pokemon.name}}</span>    
     <app-catch-pokemon-button [pokemonId]="pokemon.name"></app-catch-pokemon-button>
-</li>
+</div>
