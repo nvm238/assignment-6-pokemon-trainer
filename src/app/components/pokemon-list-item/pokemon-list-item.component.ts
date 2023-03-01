@@ -11,4 +11,9 @@ export class PokemonListItemComponent {
   @Input() pokemon?: Pokemon;
   @Input() index?: number;
 
+  public GetUrl(pokemonUrl : string){
+    const urlArray = pokemonUrl.split("/");
+    const id = urlArray[urlArray.length-2];
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+  }
 }

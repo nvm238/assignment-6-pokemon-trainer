@@ -1,5 +1,5 @@
 <li *ngIf="pokemon">
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{index}}.png"/>
+    <img [src]="GetUrl(pokemon.url)"/>
     <span>{{pokemon.name}}</span>    
     <app-catch-pokemon-button [pokemonId]="pokemon.name"></app-catch-pokemon-button>
 </li>
