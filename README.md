@@ -1,27 +1,46 @@
-# NgPokemonTrainer
+# Pokemon Trainer Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+This is an Angular application that allows users to catch and release Pokemon. The application provides a user interface for adding new Pokemon to a trainer's collection, viewing and managing the Pokemon collection, and releasing Pokemon back into the wild.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To get started with the application, you will need to have the following installed on your machine:
 
-## Code scaffolding
+- Node.js (version 14 or higher)
+- Angular CLI (version 11 or higher)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Once you have installed the prerequisites, you can follow these steps to run the application:
 
-## Build
+1. Clone this repository to your local machine using the following command:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+git clone https://github.com/nvm238/assignment-6-pokemon-trainer.git
 
-## Running unit tests
+2. Navigate to the project directory and install the dependencies using the following command:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+cd assignment-6-pokemon-trainer
+npm install
 
-## Running end-to-end tests
+3. Launch the application by running the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ng serve
 
-## Further help
+4. Open your web browser and navigate to http://localhost:4200 to view the application.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Features
+
+The application provides the following features:
+
+- Adding new Pokemon to a trainer's collection
+- Viewing and managing the Pokemon collection
+- Releasing Pokemon back into the wild
+- Randomized messages when releasing a Pokemon into the wild
+
+## Contributors
+
+- Niek Veenstra
+- Niels van Mierlo
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
